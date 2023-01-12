@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module sivuhistoria</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>sivuhistoria</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Users/iona/TKO_2111/sivuhistoria.py">/Users/iona/TKO_2111/sivuhistoria.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="json.html">json</a><br>
+</td><td width="25%" valign=top><a href="os.html">os</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-aakkosta"><strong>aakkosta</strong></a>(lista: list)</dt><dd><tt>Aakkostaa&nbsp;parametrinä&nbsp;välitetyn&nbsp;kirjalistan&nbsp;kirjoittajan&nbsp;mukaan&nbsp;<br>
+aakkosjärjestykseen</tt></dd></dl>
+ <dl><dt><a name="-hae_kirja"><strong>hae_kirja</strong></a>(paivakirja: list)</dt><dd><tt>Pyytää&nbsp;käyttäjältä&nbsp;valinnan,&nbsp;haetaanko&nbsp;kirjan&nbsp;nimen,&nbsp;kirjailijan&nbsp;nimen<br>
+vai&nbsp;kirjan&nbsp;saaman&nbsp;arvion&nbsp;mukaan</tt></dd></dl>
+ <dl><dt><a name="-lisaa_kirja"><strong>lisaa_kirja</strong></a>(paivakirja: list)</dt><dd><tt>Pyytää&nbsp;käyttäjältä&nbsp;lisättävän&nbsp;kirjan&nbsp;tiedot,&nbsp;tallettaa&nbsp;ne&nbsp;sanakirjaksi&nbsp;<br>
+sekä&nbsp;lisää&nbsp;sanakirjan&nbsp;listaan</tt></dd></dl>
+ <dl><dt><a name="-main"><strong>main</strong></a>(paivakirja: dict)</dt><dd><tt>Pääohjelma</tt></dd></dl>
+ <dl><dt><a name="-tallennapk"><strong>tallennapk</strong></a>(paivakirja: list)</dt><dd><tt>Tallentaa&nbsp;päiväkirjan&nbsp;json-tiedostoksi&nbsp;ylikirjoittaen&nbsp;aikaisemman<br>
+tiedoston,&nbsp;jos&nbsp;sellainen&nbsp;on</tt></dd></dl>
+ <dl><dt><a name="-tulosta_hakuvalikko"><strong>tulosta_hakuvalikko</strong></a>()</dt><dd><tt>Tulostaa&nbsp;hakutoiminnon&nbsp;valikon</tt></dd></dl>
+ <dl><dt><a name="-tulosta_kaikki"><strong>tulosta_kaikki</strong></a>(paivakirja: list)</dt><dd><tt>Tulostaa&nbsp;kaikki&nbsp;lukupäiväkirjaan&nbsp;tallennetut&nbsp;kirjat&nbsp;kirjailijan&nbsp;mukaan<br>
+aakkosjärjestyksessä</tt></dd></dl>
+ <dl><dt><a name="-tulosta_kirja"><strong>tulosta_kirja</strong></a>(kirja: dict)</dt><dd><tt>Apufunktio&nbsp;kirjan&nbsp;tietojen&nbsp;muotoilemiseen&nbsp;ja&nbsp;tulostamiseen&nbsp;näytölle</tt></dd></dl>
+ <dl><dt><a name="-tulosta_loydetyt"><strong>tulosta_loydetyt</strong></a>(syote: str, hakukohde: str, paivakirja: list)</dt><dd><tt>Apufunktio&nbsp;hakutoimintoon,&nbsp;tulostaa&nbsp;näytölle&nbsp;listasta&nbsp;syötteen&nbsp;ja&nbsp;<br>
+hakukohteen&nbsp;mukaiset&nbsp;kirjat&nbsp;kirjailijan&nbsp;mukaan&nbsp;aakkosjärjestyksessä</tt></dd></dl>
+ <dl><dt><a name="-tulosta_valikko"><strong>tulosta_valikko</strong></a>()</dt><dd><tt>Tulostaa&nbsp;päävalikon</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>f</strong> = &lt;_io.TextIOWrapper name='luetut.json' mode='r' encoding='UTF-8'&gt;<br>
+<strong>paivakirja</strong> = [{'arvio': '3', 'kirjoittaja': 'Polva, Anni', 'kommentti': 'Lastenkirjojen klassikko!', 'nimi': 'Tiina', 'vuosi': '1956'}, {'arvio': '5', 'kirjoittaja': 'Waltari, Mika', 'kommentti': 'Vuosisadan kirja', 'nimi': 'Sinuhe egyptiläinen', 'vuosi': '1945'}, {'arvio': '4', 'kirjoittaja': 'Linna, Väinö', 'kommentti': 'Hienoa kuvausta erilaisista persoonallisuuksista', 'nimi': 'Tuntematon sotilas', 'vuosi': '1954'}, {'arvio': '3', 'kirjoittaja': 'Kinnunen, Tommi', 'kommentti': 'Onnistunut esikoisromaani', 'nimi': 'Neljäntienristeys', 'vuosi': '2014'}, {'arvio': '4', 'kirjoittaja': 'Aalto, Anne-Maija', 'kommentti': 'tulevaisuusdystopia eriarvoisesta yhteiskunnasta', 'nimi': 'Korento', 'vuosi': '2020'}, {'arvio': '4', 'kirjoittaja': 'Kanto, Anneli', 'kommentti': 'Hyvä opas kirjoittamisen harrastajalle', 'nimi': 'Kirjoittamassa', 'vuosi': '2020'}]</td></tr></table>
+</body></html>

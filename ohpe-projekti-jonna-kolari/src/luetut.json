@@ -1,0 +1,44 @@
+[
+    {
+        "nimi": "Tiina",
+        "kirjoittaja": "Polva, Anni",
+        "vuosi": "1956",
+        "arvio": "3",
+        "kommentti": "Lastenkirjojen klassikko!"
+    },
+    {
+        "nimi": "Sinuhe egyptil\u00e4inen",
+        "kirjoittaja": "Waltari, Mika",
+        "vuosi": "1945",
+        "arvio": "5",
+        "kommentti": "Vuosisadan kirja"
+    },
+    {
+        "nimi": "Tuntematon sotilas",
+        "kirjoittaja": "Linna, V\u00e4in\u00f6",
+        "vuosi": "1954",
+        "arvio": "4",
+        "kommentti": "Hienoa kuvausta erilaisista persoonallisuuksista"
+    },
+    {
+        "nimi": "Nelj\u00e4ntienristeys",
+        "kirjoittaja": "Kinnunen, Tommi",
+        "vuosi": "2014",
+        "arvio": "3",
+        "kommentti": "Onnistunut esikoisromaani"
+    },
+    {
+        "nimi": "Korento",
+        "kirjoittaja": "Aalto, Anne-Maija",
+        "vuosi": "2020",
+        "arvio": "4",
+        "kommentti": "tulevaisuusdystopia eriarvoisesta yhteiskunnasta"
+    },
+    {
+        "nimi": "Kirjoittamassa",
+        "kirjoittaja": "Kanto, Anneli",
+        "vuosi": "2020",
+        "arvio": "4",
+        "kommentti": "Hyv\u00e4 opas kirjoittamisen harrastajalle"
+    }
+]
